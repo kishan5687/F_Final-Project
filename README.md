@@ -75,41 +75,7 @@ The system allows authorized users to monitor inventory, register new customers 
 
 Follow these steps to run the project locally.
 
-### 1. Clone or Download the Repository
-
-```bash
-git clone <repository-url>
-```
-
-Navigate to the project directory:
-
-```bash
-cd pos-laravel
-```
-
-### 2. Install Dependencies
-
-```bash
-composer install
-```
-
-### 3. Configure the Environment File
-
-Create a copy of the environment configuration file.
-
-For Windows PowerShell:
-
-```powershell
-Copy-Item .env.example .env
-```
-
-### 4. Generate the Application Key
-
-```bash
-php artisan key:generate
-```
-
-### 5. Configure the Database
+### 1. Configure the Database
 
 Open the `.env` file and update the database configuration:
 
@@ -121,10 +87,9 @@ DB_DATABASE=pos_system
 DB_USERNAME=root
 DB_PASSWORD=
 ```
-
 Update the username and password according to your local MySQL configuration.
 
-### 6. Set Up the Database
+### 2. Set Up the Database
 
 Create a MySQL database named:
 
@@ -134,7 +99,7 @@ pos_system
 
 **Important:** This project does not currently include an exported SQL database backup. The required database tables and existing records must be provided or recreated separately before the application can operate correctly.
 
-### 7. Run the Application
+### 3. Run the Application
 
 Start the Laravel development server:
 
