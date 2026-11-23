@@ -2,6 +2,8 @@
 
 A web-based Point of Sale (POS) System developed using Laravel, PHP, and MySQL. The application helps manage product inventory, customer information, staff accounts, and sales transactions through a centralized system.
 
+## Live Application URL
+* Hosted Version: [https://rk-final-project.page.gd/]
 ## Project Overview
 
 The Point of Sale System is designed to simplify daily business operations by providing an organized platform for managing products, customers, staff, and sales records.
